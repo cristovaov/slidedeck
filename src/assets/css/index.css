@@ -1,2 +1,5 @@
-@import 'reveal.js/dist/reveal.css';
-@import 'reveal.js/dist/theme/white.css';
+@import './font.css';
+@import './reset.css';
+@import './semantic.css';
+@import './reveal.css';
+@import './themes.css';
