@@ -2,3 +2,13 @@
 .vagrant/
 node_modules/
 temp/
+
+dist/
+.env
+
+# Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+CLAUDE.private.md
+AGENTS.md
