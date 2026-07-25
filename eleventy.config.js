@@ -5,7 +5,19 @@ const siteUrl = process.env.URL || 'http://localhost:8080/';
 const settings = {
 	title: 'My Site',
 	url: siteUrl,
-	defaultLanguage: 'en'
+	defaultLanguage: 'en',
+	head: {
+		link: [{
+			rel: 'stylesheet',
+			href:  '/assets/css/index.css'
+		}],
+		script: [
+			{
+				src: '/assets/js/index.js',
+				defer: true
+			}
+		]
+	}
 };
 
 export default async function (eleventyConfig) {
